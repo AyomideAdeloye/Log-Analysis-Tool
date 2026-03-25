@@ -23,6 +23,16 @@ This project was built to model how log data can be processed and categorized to
 2. Compile the Java files
 3. Run `Main.java`
 
+## Example Output
+ERROR: Failed to connect to server  
+WARNING: High memory usage detected  
+INFO: System running normally  
+
+## How It Works
+- Reads log data (simulated)
+- Classifies each entry into categories
+- Allows filtering using keywords
+
 ## Future Improvements
 - Add file input support for external log files
 - Add more advanced filtering options
